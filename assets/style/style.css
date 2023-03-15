@@ -2,10 +2,20 @@
 
 .listings-button {
   position: fixed;
-  bottom: 2em;
-  right: 2em;
+  bottom: 3em;
+  right: 3em;
+  z-index: 1;
 }
 
 .form-control {
   background-color: whitesmoke !important;
+}
+
+.card img {
+  height: 30vh;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
